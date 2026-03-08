@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Study Room Booking</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<h1> Study Room Booking</h1>
+
+<div class="controls">
+<button id="toggle-theme"> Dark Mode</button>
+<button id="reset">Reset Bookings</button>
+</div>
+
+</header>
+
+<div id="rooms-container"></div>
+
+<div id="modal" class="modal hidden">
+
+<div class="modal-content">
+
+<h2 id="modal-text"></h2>
+
+<div class="modal-buttons">
+<button id="confirm-book">Confirm</button>
+<button id="cancel-book">Cancel</button>
+</div>
+
+</div>
+
+</div>
+
+<div id="toast"></div>
+
+<script src="script.js"></script>
+<div class="cursor-glow"></div>
+</body>
+</html>
