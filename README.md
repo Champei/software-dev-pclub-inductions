@@ -1,6 +1,6 @@
 # software-dev-pclub-inductions
 
-A modern frontend-only study room booking interface built using HTML, CSS, and JavaScript.
+A frontend-only study room booking interface built using HTML, CSS, and JavaScript.
 The system allows users to view available rooms, check time slots, and book a slot. Bookings persist using localStorage, so reserved slots remain booked even after refreshing the page.
 
 View multiple study rooms with capacity and location
@@ -14,7 +14,6 @@ Responsive UI with animations
 
 # Project Structure
 study-room-booking
-│
 ├── index.html
 ├── style.css
 ├── script.js
